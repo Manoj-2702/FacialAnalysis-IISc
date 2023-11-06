@@ -28,3 +28,31 @@ pip install requirements.txt
 ### Installation
 1. Clone this repository or download the script to your local machine.
 ```
+git clone https://github.com/Manoj-2702/FacialAnalysis-IISc.git
+```
+2. Navigate to the project directory.
+```
+cd FacialAnalysis-IISc
+```
+3. Run the script
+```
+python main2.py
+```
+
+
+### Usage
+- Execute the script as mentioned in the Installation section.
+
+- A webcam feed will open, and the application will estimate the user's head pose in real-time.
+
+- The script will display the direction in which the head is tilted, such as <b>looking left, right, up, down, or straight.</b>
+
+- Press <b>'q'</b> to exit the application.
+
+
+### Output
+The script will display the webcam feed with head pose estimation, and it will print the following information to the console:
+
+- The direction in which the user is looking.
+- The rotation angles (X and Y) of the head.
+- The percentages of time spent looking in each direction over the entire session.
