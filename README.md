@@ -56,3 +56,41 @@ The script will display the webcam feed with head pose estimation, and it will p
 - The direction in which the user is looking.
 - The rotation angles (X and Y) of the head.
 - The percentages of time spent looking in each direction over the entire session.
+
+
+# Speaker Verification Using `Pyannote`
+
+This script uses the pyannote library to perform speaker verification on audio samples. It extracts speaker embeddings using a pretrained model and compares them to determine if the speakers are the same or different.
+
+### Requirements
+1. Python 3.x
+2. PyTorch
+3. Pyannote.audio
+4. Scipy
+
+
+- You can install the required libraries using pip and requirements.txt
+```
+pip install requirements.txt
+```
+
+
+
+### Installation
+1. Clone this repository or download the script to your local machine.
+```
+git clone https://github.com/Manoj-2702/FacialAnalysis-IISc.git
+```
+2. Navigate to the project directory.
+```
+cd FacialAnalysis-IISc
+```
+3. Run the script
+```
+python speaker_verification.py
+```
+
+### Parameters
+- `sample_rate`: The sample rate of the audio. Defaults to 16000.
+- `mono`: Set to "downmix" to convert stereo to mono.
+- `distance`: The threshold for cosine distance. Adjust this value based on your requirements. Default is 0.4.
