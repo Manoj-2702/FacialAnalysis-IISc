@@ -22,21 +22,21 @@ To run this code, you need the following libraries and dependencies:
 
 - You can install the required Python libraries using pip and requirements.txt
 ```
-pip install requirements.txt
+    pip install -r requirements.txt
 ```
 
 ### Installation
 1. Clone this repository or download the script to your local machine.
 ```
-git clone https://github.com/Manoj-2702/FacialAnalysis-IISc.git
+    git clone https://github.com/Manoj-2702/FacialAnalysis-IISc.git
 ```
 2. Navigate to the project directory.
 ```
-cd FacialAnalysis-IISc
+    cd FacialAnalysis-IISc/FaceAnalysis
 ```
 3. Run the script
 ```
-python main2.py
+    python main2.py
 ```
 
 
@@ -71,7 +71,7 @@ This script uses the pyannote library to perform speaker verification on audio s
 
 - You can install the required libraries using pip and requirements.txt
 ```
-pip install requirements.txt
+    pip install -r requirements.txt
 ```
 
 
@@ -79,15 +79,15 @@ pip install requirements.txt
 ### Installation
 1. Clone this repository or download the script to your local machine.
 ```
-git clone https://github.com/Manoj-2702/FacialAnalysis-IISc.git
+    git clone https://github.com/Manoj-2702/FacialAnalysis-IISc.git
 ```
 2. Navigate to the project directory.
 ```
-cd FacialAnalysis-IISc
+    cd FacialAnalysis-IISc/Speaker_Verification
 ```
 3. Run the script
 ```
-python speaker_verification.py
+    python speaker_verification.py
 ```
 
 ### Parameters
