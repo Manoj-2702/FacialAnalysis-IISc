@@ -60,3 +60,6 @@ vad_with_overlap_detection(audio_file_path)
 ## Audio File
 
 Sample audio file is in this repo. iisc_1.mp3
+
+
+https://github.com/Manoj-2702/FacialAnalysis-IISc/blob/main/OverlappedSpeech/Overlapped_Speech_Graph.png
