@@ -33,7 +33,7 @@ def vad_with_overlap_detection(audio_file):
     vad = webrtcvad.Vad()
 
     # Set its aggressiveness mode
-    vad.set_mode(1)
+    vad.set_mode(0)
 
     # Convert the float audio data to int16
     y = (y * 32767).astype(np.int16)
